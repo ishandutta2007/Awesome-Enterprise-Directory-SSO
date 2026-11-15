@@ -1,6 +1,6 @@
 # Awesome-Enterprise-Directory-SSO
 
-# Top Enterprise Directory & SSO Ecosystem
+## Top Enterprise Directory & SSO Ecosystem
 
 **Curated List of SaaS Platforms & Open-Source GitHub Projects**  
 *Focused on Identity Federation, Single Sign-On & Self-Hosted Identity Providers*  
