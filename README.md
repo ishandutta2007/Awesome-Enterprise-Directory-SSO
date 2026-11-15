@@ -57,7 +57,7 @@ The global Identity and Access Management (IAM), Directory, and SSO market is es
 
 Curated open-source identity providers, federation gateways, authentication servers, and directory bridges, sorted in descending order of GitHub community stars.
 
-| 📦 Project | ⭐ Stars Badge | 💻 Stack & Protocols | 📖 Description & Capabilities |
+| 📦 Project | ⭐ Stars_Badge | 💻 Stack & Protocols | 📖 Description & Capabilities |
 |---|---|---|---|
 | **[Keycloak](https://github.com/keycloak/keycloak)** | [![Stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers) | Java (Quarkus), OAuth 2.0, OIDC, SAML 2.0, LDAP, Kerberos | **The most widely deployed open-source identity provider with proven enterprise scale.** Apache-2.0. Multi-tenant realms manage users, roles, clients, and credentials independently. Features a robust SPI plugin architecture, SCIM 2.0 server provisioning, and built-in user federation. **Best for enterprises requiring battle-tested identity infrastructure with deep customization.** |
 | **[Authelia](https://github.com/authelia/authelia)** | [![Stars](https://img.shields.io/github/stars/authelia/authelia?style=social&color=white)](https://github.com/authelia/authelia/stargazers) | Go, OIDC, Forward Auth, LDAP, TOTP, WebAuthn | **Lightweight authentication and authorization server providing 2FA and SSO.** Apache-2.0. Acts as a companion gatekeeper for reverse proxies (Nginx, Traefik, Caddy, HAProxy, Envoy). **Best for homelabs, self-hosters, and teams needing reverse-proxy-based SSO without operating a full heavyweight IdP.** |
@@ -84,7 +84,7 @@ We welcome community contributions, corrections, and new entries!
 
 1. **Fork the repository** to your personal GitHub account.
 2. **Add or edit entries** in [README.md](file:///C:/Users/ishan/Documents/Projects/Awesome-Enterprise-Directory-SSO/README.md) following the existing Markdown table format.
-3. **Include details**: Tool name, official URL, star badge linking to `/stargazers`, tech stack, and clear, objective descriptions.
+3. **Include details**: Tool name, official URL, Stars_Badge linking to `/stargazers`, tech stack, and clear, objective descriptions.
 4. **Ensure accuracy**: Verify pricing tiers, protocol compatibility (SAML/OIDC/SCIM/LDAP), and license metadata.
 5. **Submit a Pull Request** with a descriptive summary of your changes.
 
