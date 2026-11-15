@@ -15,22 +15,27 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-products)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The global Identity and Access Management (IAM), Directory, and SSO market is estimated at approximately **$21B to $25B**, expanding at a 15–25% CAGR driven by zero-trust architectures, hybrid workforce mobility, and cloud migrations. The sector displays a **moderately concentrated top-tier** dominated by hyper-scalers and established enterprise security vendors (Microsoft, Okta, CyberArk, Ping Identity) who capture ~40% of spend via bundled ecosystems, balanced by a **heavily fragmented long-tail** of specialized providers and open-source alternatives addressing niche developer, homelab, and self-hosted data-sovereignty requirements.
+
 ## SaaS/Hosted Platforms
 
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id)** | Cloud IAM with tenant-level administration, conditional access, and hybrid identity synchronization. **P1: $6/user/month**; P2: $9/user/month adds Identity Protection and PIM. Microsoft exerts pricing pressure on the market through Entra ID bundling . | P1: **$6/user/month**; P2: **$9/user/month** | **Free edition**: basic directory and security defaults with Azure/M365 subscriptions |
-| **[Okta](https://www.okta.com/)** | Enterprise workforce and customer identity with multi-tenant org management. Workforce Starter: **$6/user/month** (annual); Enterprise: $17/user/month. | Starter: **$6/user/month**; Enterprise: **$17/user/month** | No free tier for workforce; developer edition available |
-| **[Ping Identity](https://www.pingidentity.com/)** | Enterprise IAM with identity governance, lifecycle management, and **PingOne DaVinci** identity orchestration for no-code authentication journeys. **PingOne Workforce: from $3/user/month** (minimum 5,000 users); Customers: from $35,000/year [citation:5][citation:7]. | Workforce: **$3/user/month** (min 5,000); Customers: **$35,000/year** | No free tier; demo via sales |
-| **[OneLogin](https://www.onelogin.com/)** | Mid-market workforce access management with clean admin console. **Advanced tier: $4/user/month**; Professional: $8/user/month (verified 2026) [citation:7]. Now part of One Identity—confirm roadmap direction with sales. | Advanced: **$4/user/month**; Professional: **$8/user/month** | Free trial available |
-| **[JumpCloud](https://jumpcloud.com/)** | Cloud directory combining identity, device management, and SSO. **Free to 10 users and 10 devices**; SSO package runs **$13/user/month** [citation:7]. Replaces on-prem Active Directory while adding SSO and MDM. | **Free** (10 users); SSO: **$13/user/month** | **Free forever**: 10 users, 10 devices |
-| **[Google Workspace Identity](https://workspace.google.com/)** | Identity within Google Workspace. SSO available on Business and Enterprise plans. | Business Starter: **$7/user/month** | **14-day free trial**; no permanent free tier |
-| **[CyberArk Identity](https://www.cyberark.com/)** | Identity security platform with SSO, MFA, and lifecycle management. Privileged access management available as separate product. | Quote-only | Free trial available |
+| Product | Company Scale (Valuation / Market Cap / Revenue) | Description | Starting Pricing | Free Tier / Trial Limits |
+|---------|--------------------------------------------------|-------------|------------------|--------------------------|
+| **[Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id)** | ~$3.89 Trillion (Market Cap) | Cloud IAM with tenant-level administration, conditional access, and hybrid identity synchronization. Microsoft exerts pricing pressure on the market through Entra ID bundling. | **$6/user/month** (Entra ID P1; P2 at $9/user/month) | **Free edition forever**: Core directory, self-service password reset for cloud users, and security defaults (included with Azure/M365 accounts) |
+| **[Google Workspace Identity](https://workspace.google.com/)** | ~$3.5 Trillion (Alphabet Market Cap) | Cloud Identity and access management embedded in Google Workspace and GCP, providing SAML/OIDC SSO and directory services. | **$6/user/month** (Cloud Identity Premium; Business Starter: $7/user/month) | **Free edition forever**: 50 free user licenses for Cloud Identity Free (or 14-day free trial on Workspace tiers) |
+| **[Okta](https://www.okta.com/)** | ~$32 Billion (Market Cap) | Enterprise workforce and customer identity with multi-tenant org management, universal directory, and workflow automation. | **$6/user/month** (Workforce Starter, annual contract; Enterprise: $17/user/month) | **30-day free trial**: Capped at 10 active users and 5 active workflows (developer free plan available with deactivation after 90 days inactivity) |
+| **[CyberArk Identity](https://www.cyberark.com/)** | ~$21.1 Billion (Acquisition Valuation) | Identity security platform providing workforce SSO, Adaptive MFA, directory integration, and privileged access security. | **$2.27/user/month** (Standalone SSO; bundled Workforce Identity starts around $4–$7.20/user/month) | **30-day free trial**: Full access to SSO and Adaptive MFA for evaluation; training virtual lab environments limited to 14 days |
+| **[Ping Identity](https://www.pingidentity.com/)** | ~$2.8 Billion (Buyout Valuation; ~$1B Combined ARR) | Enterprise IAM with identity governance, lifecycle management, and PingOne DaVinci identity orchestration for no-code authentication journeys. | **$3/user/month** (PingOne Workforce; minimum 5,000 users / $15,000/year commitment; Customer IAM from $35,000/year) | **30-day free trial**: Full access to PingOne Workforce evaluation environment |
+| **[JumpCloud](https://jumpcloud.com/)** | ~$2.6 Billion (Valuation; ~$100M–$200M ARR) | Cloud directory platform combining identity, device management (MDM), and SSO to replace traditional Active Directory. | **$13/user/month** (SSO Package; Core Directory starts at $11/user/month) | **Free edition forever**: Fully functional up to 10 users and 10 devices |
+| **[OneLogin](https://www.onelogin.com/)** | ~$500 Million (Acquisition Valuation; ~$70M+ ARR) | Mid-market workforce access management offering cloud directory, single sign-on, and policy management under One Identity. | **$4/user/month** (Advanced plan; Professional plan: $8/user/month) | **30-day free trial**: Limited to ~10–12 test user seats for administrative POC evaluation |
 
 ## Open-Source GitHub Projects
 
